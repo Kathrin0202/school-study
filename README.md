@@ -39,3 +39,5 @@ npm run start
 ```
 
 Проект будет запущен по адресу: http://localhost:3000
+
+## Ссылка на проект https://Kathrin0202.github.io/school-study
