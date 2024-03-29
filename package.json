@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:scss": "stylelint src/**/*.scss",
+    "lint:scss:fix": "npm run lint:scss -- --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +41,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.72.0",
+    "stylelint": "^16.3.0",
+    "stylelint-config-standard": "^36.0.0",
+    "typescript-plugin-css-modules": "^5.1.0"
   }
 }
